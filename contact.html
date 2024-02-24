@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MediCom</title>
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #contact-imgs{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #other-content div span{
+        width: 300px;
+        height: 170px;
+        background: #EFF5F9;
+        margin: 0 30px;
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+        border-radius: 12px;
+    }
+    #contact-form{
+        width: 80%;
+        height: 100%;
+        background: #EFF5F9;
+        border-radius: 12px;
+        margin-top: 100px;
+    }
+    #contact-form>div{
+        width: 80%;
+        height: 80%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px;
+    }
+    #contact-form input, textarea{
+        /* margin: 0 50px; */
+        padding: 20px;
+        border: 2px solid lightgrey;
+        border-radius: 12px;
+        width: 500px;
+        resize: vertical;
+    }
+    #contact-form button{
+        /* margin: 0 50px; */
+        padding: 20px;
+        border: 2px solid lightgrey;
+        border-radius: 12px;
+        width: 550px;
+        background: #13C5DD;
+        color: white;
+        font-weight: bold;
+
+    }
+    
+</style>
+<body>
+    <nav id="navbar" class="flex">
+        <h1 class="font-style secondary-color">MediCom</h1>
+        <ul class="flex font-style">
+            <a href="home.html">
+                <li>Home</li>
+            </a><a href="about.html">
+                <li>About</li>
+            </a><a href="service.html">
+                <li>Service</li>
+            
+            </a><a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+    <div id="other-content" class="container">
+        <h2 class="secondary-color font-style" align="center">ANY QUESTIONS?</h2>
+        <h1 class="h2" style="margin: 50px 0;" align="center">Please Feel Free To <br> Contact Us</h1>
+        <div id="contact-imgs">
+            <span>
+                <img src="./images/location.png" alt="Img not found" width="60">
+                <h3 class="secondary-color font-style">No 1198, Indiranagar, Bengaluru, Karnataka 560038</h3>
+            </span>
+            <span>
+                <img src="./images/phone.png" alt="Img not found" width="60">
+                <h3 class="secondary-color font-style">+919023492234</h3>
+            </span>
+            <span>
+                <img src="./images/mail.png" alt="Img not found" width="60">
+                <h3 class="secondary-color font-style">Medicom@gmail.com</h3>
+            </span>
+        </div>
+        <div id="contact-form" class="container">
+            <div class="container flex">
+                <div>
+                    <input class="text font-style" type="text" placeholder="Your Name"> <br>
+                </div>
+                <div>
+
+                    <input class="text font-style" type="text" placeholder="Your Email">
+                </div>
+                <div>
+
+                    <input class="text font-style" type="text" placeholder="Subject">
+                </div>
+                <div>
+
+                    <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <button class="text">Send Message</button>
+            </div>
+        </div>
+    </div>
+    <footer class="font-style">
+        <section class=" flex">
+
+            <div>
+
+                <h2>Quick Links</h2>
+                <ul class="primary-color" type="square">
+                   <a class="text primary-color" href="home.html"><li>Home</li></a>
+                   <a class="text primary-color" href="about.html"><li>About</li></a>
+                   <a class="text primary-color" href="service.html"><li>Our Service</li></a>
+                   <a class="text primary-color" href="contact.html"><li>Contact Us</li></a>
+                </ul>
+            </div>
+            <div>
+                <h2>Follow us on</h2>
+                <br>
+                <a href="https://www.twitter.com" target="_blank">
+                    <div class="follow"><img width="25" src="./images/twitter.png" alt="img not found"></div>
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <div class="follow"><img width="25" src="./images/facebook.png" alt="img not found"></div>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <div class="follow"><img width="25" src="./images/linkedin.png" alt="img not found"></div>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <div class="follow"><img width="25" src="./images/instagram.png" alt="img not found"></div>
+                </a>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <hr color="#354F8E">
+        <h3 class="text primary-color">www.MediCom.com|All Rights&copy; Reserved</h3>
+    </footer>
+</body>
+</html>
